@@ -13,58 +13,45 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textStyle="bold"
-        android:text="LOGIN"
+        android:text="DASHBOARD"
         android:textColor="#2d3436"
         android:textSize="40sp"
         android:gravity="center"
         />
-    <ImageView
-        android:layout_width="118dp"
-        android:layout_height="112dp"
-        android:background="@drawable/baseline_computer_24" />
-
-
-    <TextView
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="username"
-        android:textSize="20dp"
-        android:layout_margin="10dp"
-        android:textColor="#2d3436"
-        android:textStyle="bold"
-        />
-    <EditText
-        android:drawableLeft="@drawable/baseline_account_circle_24"
-        android:id="@+id/uname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your username"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="password"
-        android:textSize="20dp"
-        android:layout_margin="10dp"
-        android:textColor="#2d3436"
-        android:textStyle="bold"
-        />
-    <EditText
-        android:drawableLeft="@drawable/baseline_accessibility_24"
-        android:id="@+id/pwd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your password"
-        android:layout_margin="10dp"
-        android:inputType="numberPassword"/>
-
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/logbt"
+        android:id="@+id/am"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="#000000"
-        android:text="login"
+        android:text="add movie"
+        android:textColor="#dfe6e9" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:text="Search Movie"
+        android:textColor="#dfe6e9" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:text="view all movies"
+        android:textColor="#dfe6e9" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:text="Exit"
         android:textColor="#dfe6e9" />
 </LinearLayout>

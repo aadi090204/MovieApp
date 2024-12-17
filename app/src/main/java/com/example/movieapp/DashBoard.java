@@ -27,6 +27,27 @@ public class DashBoard extends AppCompatActivity {
         d=(Button) findViewById(R.id.ext);
 
 
+        a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ac=new Intent(getApplicationContext(), AddMovie.class);
+                startActivity(ac);
+            }
+        });
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ad=new Intent(getApplicationContext(), SearchMovie.class);
+                startActivity(ad);
+            }
+        });
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ae=new Intent(getApplicationContext(), ViewAllMovies.class);
+                startActivity(ae);
+            }
+        });
         d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
